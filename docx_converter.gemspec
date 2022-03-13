@@ -20,7 +20,8 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   s.add_runtime_dependency 'kramdown'
   s.add_runtime_dependency 'nokogiri'
-  s.add_runtime_dependency 'rubyzip'
+  s.add_runtime_dependency 'rubyzip', '< 1.0.0'
+  s.add_runtime_dependency 'publishr'
   s.add_runtime_dependency 'rmagick'
   s.add_runtime_dependency 'ruby-filemagic'
 end
